@@ -1,0 +1,15 @@
+{
+  "originHash" : "5c84df39d855ed183e47129c35681bf4ac44e2c2fc0547a58c677b0040388419",
+  "pins" : [
+    {
+      "identity" : "lbfoundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LuisAlvarez12/LBFoundation.git",
+      "state" : {
+        "revision" : "647c7c8a94e3b44df194844931d9243d503a249b",
+        "version" : "2.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}
