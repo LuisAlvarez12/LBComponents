@@ -1,20 +1,18 @@
 //
-//  PrimaryStyle.swift
+//  PillButtonStyle.swift
 //  LBComponents
 //
 //  Created by Luis Alvarez on 2/5/25.
 //
 
-
-import SwiftUI
 import LBFoundation
+import SwiftUI
 
 public extension ButtonStyle where Self == PillButtonStyle {
     static var lbPill: PillButtonStyle { .init() }
 }
 
 public struct PillButtonStyle: ButtonStyle {
-    
     public func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .padding()

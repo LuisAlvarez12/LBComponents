@@ -14,7 +14,8 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "LBComponents",
-            targets: ["LBComponents"]),
+            targets: ["LBComponents"]
+        ),
     ],
     dependencies: [
         .package(name: "LBFoundation", url: "https://github.com/LuisAlvarez12/LBFoundation.git", from: "2.0.2"),
@@ -28,6 +29,5 @@ let package = Package(
                 .product(name: "LBFoundation", package: "LBFoundation"),
             ]
         ),
-
     ]
 )

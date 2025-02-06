@@ -5,8 +5,8 @@
 //  Created by Luis Alvarez on 9/14/23.
 //
 
-import SwiftUI
 import LBFoundation
+import SwiftUI
 
 public extension View {
     func springsIn(offset: CGFloat = 40, duration: Double = 0.7) -> some View {

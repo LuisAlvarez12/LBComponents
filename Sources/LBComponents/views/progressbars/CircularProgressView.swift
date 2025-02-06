@@ -5,14 +5,14 @@
 //  Created by Luis Alvarez on 2/5/25.
 //
 
-import SwiftUI
 import LBFoundation
+import SwiftUI
 
 public struct CircularProgressView: View {
     public let progress: Double
     public var color: Color = .blue
     public var width: CGFloat = 20
-    
+
     public init(progress: Double, color: Color, width: CGFloat) {
         self.progress = progress
         self.color = color

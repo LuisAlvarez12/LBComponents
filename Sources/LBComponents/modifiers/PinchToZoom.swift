@@ -6,8 +6,8 @@
 //
 
 #if canImport(UIKit)
-    import UIKit
     import SwiftUI
+    import UIKit
 
     @MainActor
     class PinchZoomView: UIView {

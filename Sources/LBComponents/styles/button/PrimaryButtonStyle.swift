@@ -5,21 +5,20 @@
 //  Created by Luis Alvarez on 2/5/25.
 //
 
-import SwiftUI
 import LBFoundation
+import SwiftUI
 
 public extension ButtonStyle where Self == PrimaryStyle {
     static var lbPrimary: PrimaryStyle { .init() }
 }
 
 public struct PrimaryStyle: ButtonStyle {
-    
     var backgroundColor: Color
-    
+
     public init(backgroundColor: Color = currentAppTheme.primary) {
         self.backgroundColor = backgroundColor
     }
-    
+
     public func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .padding()

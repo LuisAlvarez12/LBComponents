@@ -5,8 +5,8 @@
 //  Created by Luis Alvarez on 5/20/24.
 //
 
-import SwiftUI
 import LBFoundation
+import SwiftUI
 
 /// A view component that displays a large banner with an image, title, and subtitle.
 /// This banner is typically used for prominent displays or featured content.

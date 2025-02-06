@@ -1,12 +1,12 @@
 //
-//  SwiftUIView.swift
+//  MediumImageBanner.swift
 //
 //
 //  Created by Luis Alvarez on 5/20/24.
 //
 
-import SwiftUI
 import LBFoundation
+import SwiftUI
 
 /// A view component that displays a medium-sized banner with an image, title, and subtitle.
 /// This banner is designed for compact presentations where a full-size banner would be too large.

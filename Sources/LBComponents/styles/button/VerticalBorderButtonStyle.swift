@@ -1,20 +1,18 @@
 //
-//  PrimaryStyle.swift
+//  VerticalBorderButtonStyle.swift
 //  LBComponents
 //
 //  Created by Luis Alvarez on 2/5/25.
 //
 
-
-import SwiftUI
 import LBFoundation
+import SwiftUI
 
 public extension ButtonStyle where Self == VerticalBorderButtonStyle {
     static var lbVerticalBorder: VerticalBorderButtonStyle { .init() }
 }
 
 public struct VerticalBorderButtonStyle: ButtonStyle {
-    
     public func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .padding()

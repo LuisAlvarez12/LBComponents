@@ -5,16 +5,14 @@
 //  Created by Luis Alvarez on 2/5/25.
 //
 
-
-import SwiftUI
 import LBFoundation
+import SwiftUI
 
 public extension LabelStyle where Self == PillLabelStyle {
     static var lbPill: PillLabelStyle { .init() }
 }
 
 public struct PillLabelStyle: LabelStyle {
-    
     public func makeBody(configuration: Configuration) -> some View {
         HStack {
             configuration.icon

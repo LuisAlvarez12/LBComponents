@@ -1,10 +1,9 @@
 //
-//  LBSheetModifier.swift
+//  InfoSheets.swift
 //  LBComponents
 //
 //  Created by Luis Alvarez on 2/5/25.
 //
-
 
 //
 //  SwiftUIView.swift
@@ -13,8 +12,8 @@
 //  Created by Luis Alvarez on 10/1/23.
 //
 
-import SwiftUI
 import LBFoundation
+import SwiftUI
 
 public extension View {
     func infoSheet(isPresented: Binding<Bool>, title: LocalizedStringKey, desc: LocalizedStringKey? = nil, image: UIImage, buttonText: LocalizedStringKey = "OK") -> some View {
@@ -25,8 +24,7 @@ public extension View {
 public extension View {
     @ViewBuilder
     func materialSheet() -> some View {
-        self
-            .padding()
+        padding()
             .presentationDetents([.medium, .large])
             .presentationDragIndicator(.visible)
             .presentationBackground(Material.thick)

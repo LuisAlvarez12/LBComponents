@@ -1,13 +1,13 @@
 //
-//  ScreenNoticeView.swift
+//  NoticeView.swift
 //  LBComponents
 //
 //  Created by Luis Alvarez on 2/5/25.
 //
 
-import SwiftUI
 import Foundation
 import LBFoundation
+import SwiftUI
 
 public struct ScreenNoticeView: View {
     public enum Style {

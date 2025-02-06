@@ -1,28 +1,26 @@
 //
-//  PrimaryStyle.swift
+//  SecondaryButtonStyle.swift
 //  LBComponents
 //
 //  Created by Luis Alvarez on 2/5/25.
 //
 
-
-import SwiftUI
 import LBFoundation
+import SwiftUI
 
 public extension ButtonStyle where Self == SecondaryStyle {
     static var lbSecondary: SecondaryStyle { .init() }
 }
 
 public struct SecondaryStyle: ButtonStyle {
-    
     var fontColor: Color
     var backgroundColor: Color
-    
+
     public init(fontColor: Color = currentAppTheme.primary, backgroundColor: Color = currentAppTheme.surface.normal) {
         self.fontColor = fontColor
         self.backgroundColor = backgroundColor
     }
-    
+
     public func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .padding()

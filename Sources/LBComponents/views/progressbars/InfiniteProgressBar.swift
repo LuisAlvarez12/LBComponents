@@ -5,9 +5,8 @@
 //  Created by Luis Alvarez on 2/5/25.
 //
 
-import SwiftUI
 import LBFoundation
-
+import SwiftUI
 
 // the height of the bar
 private let height: CGFloat = 4

@@ -5,16 +5,14 @@
 //  Created by Luis Alvarez on 2/5/25.
 //
 
-
-import SwiftUI
 import LBFoundation
+import SwiftUI
 
 public extension LabelStyle where Self == VerticalBorderLabelStyle {
     static var lbVerticalBorder: VerticalBorderLabelStyle { .init() }
 }
 
 public struct VerticalBorderLabelStyle: LabelStyle {
-    
     public func makeBody(configuration: Configuration) -> some View {
         VStack {
             configuration.icon
